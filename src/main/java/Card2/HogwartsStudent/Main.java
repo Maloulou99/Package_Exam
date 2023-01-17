@@ -1,4 +1,4 @@
-package HogwatsStudent;
+package Card2.HogwartsStudent;
 
 import java.util.ArrayList;
 import java.util.Collections;

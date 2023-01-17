@@ -4,7 +4,7 @@ public class Bmi {
 
     private double height;
     private double weight;
-    private double bmi = 0;
+    private double bmi;
 
 
     public Bmi(double height, double weight){
@@ -13,13 +13,15 @@ public class Bmi {
     }
 
     public void calculate(){
-        bmi = weight/height;
+        bmi = weight/(height*height);
+        System.out.println(bmi);
     }
 
 
     public boolean isUnderWeight(){
         if (bmi <= 18.5 && bmi >= 0){
             System.out.println("You are under weight");
+
         }
         return false;
     }

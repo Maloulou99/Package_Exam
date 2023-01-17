@@ -1,4 +1,4 @@
-package HogwatsStudent;
+package HogwartsStudent;
 
 public class HogwartsStudent implements Comparable<HogwartsStudent>{
 

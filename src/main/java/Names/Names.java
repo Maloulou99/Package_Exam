@@ -20,6 +20,11 @@ public class Names {
         this.firstName = firstName;
         this.lastName = lastName;
     }
+    public Names(String firstName,String middleName, String lastName){
+        this.firstName = firstName;
+        this.middleName = middleName;
+        this.lastName = lastName;
+    }
 
     public String toString() {
         if (middleName == null)
@@ -44,8 +49,11 @@ public class Names {
     public static void main(String[] args) {
 
         Names names = new Names("Malou", "Lundstrøm");
+        Names names1 = new Names("Malou", "Fatma", "Lundstrøm");
+
 
         System.out.println(names);
+        System.out.println(names1);
 
     }
 

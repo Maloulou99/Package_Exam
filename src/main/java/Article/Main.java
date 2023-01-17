@@ -1,4 +1,4 @@
-import Article.Article;
+package Article;
 
 public class Main {
     public static void main(String[] args) {

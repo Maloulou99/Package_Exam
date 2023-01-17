@@ -1,9 +1,5 @@
 package Tal;
-
-import com.sun.source.tree.BreakTree;
-
-import javax.management.relation.RelationNotification;
-import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Random;
 
 public class Tal {
@@ -25,7 +21,13 @@ public class Tal {
         return tal;
     }
 
-
+    @Override
+    public String toString() {
+        return "Tal{" +
+                "random=" + random +
+                ", tal=" + Arrays.toString(tal) +
+                '}';
+    }
 }
 
 

@@ -5,15 +5,11 @@ import java.io.IOException;
 import java.io.PrintStream;
 import java.util.Scanner;
 
-public class Marios {
-
-
-
-    public void saveFile(File file, String string) throws IOException{
-        PrintStream printStream = new PrintStream(file);
-        printStream.println(string);
-        printStream.close();
-
+public class marios {
+        public void saveFile(File file, String string) throws IOException{
+            PrintStream printStream = new PrintStream(file);
+            printStream.println(string);
+            printStream.close();
     }
 
     public void loadToFile(File file) throws IOException {
@@ -22,9 +18,5 @@ public class Marios {
         while (scanner.hasNext()){
             System.out.println(scanner.nextLine());
         }
-
-
-
     }
-
 }
